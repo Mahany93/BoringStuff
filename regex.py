@@ -64,18 +64,19 @@ print(mo3.group())
  """
 
 ########## Matching One or More with the Plus ##########
-batRegex= re.compile(r'Bat(wo)+man', re.I)
+""" batRegex= re.compile(r'Bat(wo)+man', re.I)
 mo = batRegex.search('The Adventures of Batman')
 mo2 = batRegex.search('The Adventures of BATWOMAN')
 mo3 = batRegex.search('The Adventures of Batwowowowowowowowoman')
 print(mo == None)
 print(mo2.group())
 print(mo3.group())
-
+ """
 
 ########## Matching Specific Repetitions with Braces ##########
-# haRegex = re.compile(r'(Ha){3}')
-# mo = haRegex.search('HaHaHa')
-# mo2 = haRegex.search('HaHa')
-# print(mo.group())
-# print(mo2 == None)
+""" haRegex = re.compile(r'(Ha){3}')
+mo = haRegex.search('HaHaHa')
+mo2 = haRegex.search('HaHa')
+print(mo.group())
+print(mo2 == None) """ 
+
